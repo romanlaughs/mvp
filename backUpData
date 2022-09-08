@@ -1,0 +1,10 @@
+const data = [
+  {
+    category: 'Any',
+    text: 'Working on anything exciting lately?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+]
+
+module.exports.data = data;
