@@ -1,7 +1,25 @@
 const data = [
   {
-    category: 'Any',
+    category: 'Work',
     text: 'Working on anything exciting lately?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Any',
+    text: 'What personal passion project are you working on right now?',
+    keywords: ['any', 'work', 'career', 'passion', 'project', 'recent', 'excite', 'side', 'hustle'],
+    seenBefore: false
+  },
+  {
+    category: 'Dating',
+    text: 'What was the highlight of your day today?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Deep',
+    text: 'What is a language you love to listen to even if you don\'t speak or understand it?',
     keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
     seenBefore: false
   },

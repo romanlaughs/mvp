@@ -1,4 +1,5 @@
 const path = require('path');
+import css from "file.css";
 
 module.exports={
   mode: 'development',
@@ -28,7 +29,7 @@ module.exports={
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react']
           }
-        }
+        },
       }
     ]
   }

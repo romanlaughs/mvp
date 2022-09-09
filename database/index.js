@@ -21,15 +21,21 @@ let insert = async (array) => {
       keywords: array[i].keywords,
       seenBefore: array[i].seenBefore
       })
-    Inserted.save()
-  }
+      Inserted.save()
+    }
+    return
+}
+
+let remove = async () => {
+  TLK.deleteMany({seenBefore: false})
+  return
 }
 
 
 
-let find = () => {
+let find = (cat) => {
   console.log('FIND WAS CALLED')
-  return TLK.find({category: 'Any'})
+  return TLK.find({})
     .then((total) => {
       if (!total.length) {
         console.log('EMPTY')
@@ -39,11 +45,12 @@ let find = () => {
     })
     .then(() => {
       console.log('FULL!')
-      return TLK.find({})
+      return TLK.find(cat)
     })
-}
-
+  }
 
 module.exports = {
-find: find
+find: find,
+insert: insert,
+remove: remove
 }
