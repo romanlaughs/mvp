@@ -7,13 +7,13 @@ const data = [
   },
   {
     category: 'Any',
-    text: 'What personal passion project are you working on right now?',
+    text: 'If you had to pick any character in a book, movie, or TV show who is most similar to you, who would you choose? Why?',
     keywords: ['any', 'work', 'career', 'passion', 'project', 'recent', 'excite', 'side', 'hustle'],
     seenBefore: false
   },
   {
     category: 'Dating',
-    text: 'What was the highlight of your day today?',
+    text: 'What job did you want to do when you were a kid?',
     keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
     seenBefore: false
   },
@@ -21,6 +21,108 @@ const data = [
     category: 'Deep',
     text: 'What is a language you love to listen to even if you don\'t speak or understand it?',
     keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Work',
+    text: 'Is there a charitable cause you support?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Any',
+    text: 'What are your favorite restaurants around here?',
+    keywords: ['any', 'work', 'career', 'passion', 'project', 'recent', 'excite', 'side', 'hustle'],
+    seenBefore: false
+  },
+  {
+    category: 'Dating',
+    text: 'If you had to pick one - skydiving, bungee jumping, or scuba diving - which would you do?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Deep',
+    text: 'What is your favorite thing about your personality?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Work',
+    text: 'I\'m a bit nervous about the _____. Have you ever done it before?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Any',
+    text: 'When you were growing up, what was your dream job? Is any part of that still true?',
+    keywords: ['any', 'work', 'career', 'passion', 'project', 'recent', 'excite', 'side', 'hustle'],
+    seenBefore: false
+  },
+  {
+    category: 'Dating',
+    text: 'Which of your family members are you most like?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Dating',
+    text: 'When you were a kid, what did you think your life would look like now?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Deep',
+    text: 'What is something you have accomplished as an adult that your younger self would be proud of?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Work',
+    text: 'What has been the best thing about working here?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Work',
+    text: 'Have you learned any insider tips about working here?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Any',
+    text: 'Who is your role model?',
+    keywords: ['any', 'work', 'career', 'passion', 'project', 'recent', 'excite', 'side', 'hustle'],
+    seenBefore: false
+  },
+  {
+    category: 'Deep',
+    text: 'What do you wear when you\'re feeling your very best, and why?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Kids',
+    text: 'When you\'re a grown up, what type of house will you live in?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Kids',
+    text: 'Do you think there are aliens on other planets?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Kids',
+    text: 'Who would win in a fight, a robot or a dinosaur?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
+    seenBefore: false
+  },
+  {
+    category: 'Kids',
+    text: 'If you were an animal, what animal would you be? Why?',
+    keywords: ['any', 'work', 'career', 'highlight', 'excited', 'recent', 'excite'],
     seenBefore: false
   },
 ]

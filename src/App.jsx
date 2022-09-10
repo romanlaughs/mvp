@@ -36,7 +36,7 @@ class App extends React.Component {
   getStarters() {
     console.log(this.state.selectedOption)
     $.ajax({
-      url: '/test',
+      url: '/results',
       data: this.state.selectedOption,
       type: 'GET',
     })

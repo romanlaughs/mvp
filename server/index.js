@@ -10,7 +10,7 @@ const convo = require('/Users/ncassano/Desktop/Hack_Reactor/rpp2205-mvp/backUpDa
 app.use(express.static(__dirname + '/../public'));
 
 
-app.get('/test', (req, res) => {
+app.get('/results', (req, res) => {
   var input = req.url.split('?');
   //console.log(input[1])
   db.find({category: input[1]} || {category: {}})
@@ -20,15 +20,23 @@ app.get('/test', (req, res) => {
 })
 
 app.get('/start', (req, res) => {
+  //MAKE SURE TO ELIMINATE DUPLICATE CATEGORIES THE YOU CAN GET MULTIPLE
   db.remove()
-  var array = []
+  var final = []
+  var firstObj = {};
   for (var i in convo.data) {
+    if (firstObj[convo.data[i].category] === undefined) {
+      firstObj[convo.data[i].category] = convo.data[i].category
+    }
+  }
+  for (var i in firstObj) {
     var resultObj = {};
     resultObj._id = i;
-    resultObj.category = convo.data[i].category;
-    array.push(resultObj)
+    resultObj.category = firstObj[i];
+    final.push(resultObj)
   }
-  res.send(array);
+
+  res.send(final);
 })
 
 app.listen(port, () => {

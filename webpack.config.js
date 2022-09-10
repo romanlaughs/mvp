@@ -9,13 +9,6 @@ module.exports={
     filename: 'main.js'
   },
   target: 'web',
-  // devServer: {
-  //   port: '9500',
-  //   static: ['./public'],
-  //   open: true,
-  //   hot: false,
-  //   liveReload: true
-  // },
   resolve: {
     extensions: ['.js', '.jsx', '.json']
   },
