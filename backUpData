@@ -1,14 +1,14 @@
 const data = [
   {
-    category: 'Work',
-    text: 'Working on anything exciting lately?',
-    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
-    seenBefore: false
-  },
-  {
     category: 'Any',
     text: 'If you had to pick any character in a book, movie, or TV show who is most similar to you, who would you choose? Why?',
     keywords: ['any', 'work', 'career', 'passion', 'project', 'recent', 'excite', 'side', 'hustle'],
+    seenBefore: false
+  },
+  {
+    category: 'Work',
+    text: 'Working on anything exciting lately?',
+    keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
     seenBefore: false
   },
   {
@@ -18,7 +18,7 @@ const data = [
     seenBefore: false
   },
   {
-    category: 'Deep',
+    category: 'Insightful',
     text: 'What is a language you love to listen to even if you don\'t speak or understand it?',
     keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
     seenBefore: false
@@ -42,7 +42,7 @@ const data = [
     seenBefore: false
   },
   {
-    category: 'Deep',
+    category: 'Insightful',
     text: 'What is your favorite thing about your personality?',
     keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
     seenBefore: false
@@ -72,7 +72,7 @@ const data = [
     seenBefore: false
   },
   {
-    category: 'Deep',
+    category: 'Insightful',
     text: 'What is something you have accomplished as an adult that your younger self would be proud of?',
     keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
     seenBefore: false
@@ -96,7 +96,7 @@ const data = [
     seenBefore: false
   },
   {
-    category: 'Deep',
+    category: 'Insightful',
     text: 'What do you wear when you\'re feeling your very best, and why?',
     keywords: ['any', 'work', 'career', 'exciting', 'excited', 'recent', 'excite'],
     seenBefore: false
